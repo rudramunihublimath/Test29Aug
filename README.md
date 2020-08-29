@@ -2,15 +2,14 @@
 coding test
 
 
-- H2 Database is used 
-- Swagger is used
+- H2 Database is used  :  http://localhost:8080/h2-console/ 
+- Swagger is used  URL  - http://localhost:8080/swagger-ui.html
 - Below samples/test cases are tested
 - operation used :  POST /api/totalprice findtotalprice
 
 Samples :
 
-1.
----------------------
+--------------------- 1.
 {
   "orderList": [
     {
@@ -34,7 +33,7 @@ Samples :
 
 output -  110
 
----------------------
+--------------------- 2.
 {
   "orderList": [
     {
@@ -54,7 +53,7 @@ output -  110
 }
 
 output - 100
----------------------
+--------------------- 3.
 
 {
   "orderList": [
@@ -74,7 +73,7 @@ output - 100
 }
 
 output - 370
---------------------
+-------------------- 4.
 
 {
   "orderList": [
