@@ -1,20 +1,20 @@
 package com.io.Promo.model;
 
 public class ProductResp {
-    int totalresp;
+    int total;
 
     public ProductResp() {
     }
 
-    public ProductResp(int totalresp) {
-        this.totalresp = totalresp;
+    public ProductResp(int total) {
+        this.total = total;
     }
 
-    public int getTotalresp() {
-        return totalresp;
+    public int getTotal() {
+        return total;
     }
 
-    public void setTotalresp(int totalresp) {
-        this.totalresp = totalresp;
+    public void setTotal(int total) {
+        this.total = total;
     }
 }

@@ -81,7 +81,7 @@ public class Productcontroller {
         total = total - (sum1-sum2);
         System.out.println("Total Price = "+total);
         ProductResp resp = new ProductResp();
-        resp.setTotalresp(total);
+        resp.setTotal(total);
         //return total;
         return new ResponseEntity<ProductResp>(resp, HttpStatus.OK);
     }
